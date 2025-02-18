@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+}
+
+ul {
+    background-color: #000965;
+    color: white;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 84.4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 8px;
+    margin-right: 2rem;
+    margin-top: 25px;
+}
+
+ul :hover {
+    color: #c0e8ff;
+    transition: 0.5s ease;
+}
+
+.logo {
+    margin-top: 4px;
+    height: 75.96px;
+    width: 74.91pz;
+}
+
+.text1 {
+    font-size: 26px ;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: white;
+    position: absolute;
+}
+
+.mainPic {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%; 
+}
+
+.shortText {
+    text-align: center;
+    font-size: 40px;
+    color: #000965;
+}
+
+.bottomDiv {
+    background-color: #000965;
+    margin: 0;
+    padding: 0;
+    height: 84.4px;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
